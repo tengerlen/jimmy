@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.navbar > button{
+    height: 100%;
+    width:100px;
+    background-color: black;
+    border:none;
+    color: white;
+}
+.navbar > button:hover{
+    background-color: grey;
+    color: black;
+}
+.mainimg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./chicago.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.wht{
+    color:white;
+    margin-bottom: 20px;
+}
+.m-bot{
+    margin-bottom:70px;
+}
+.BAND{
+    border: 1px solid white;
+    width:800px;
+    height:500px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 550px;
+}
+.bandbox{
+    justify-content: center;
+    align-items: center;
+}
+.bandbox > h5{
+    margin-top: 30px;
+    text-align: justify;
+}
+.imgbox{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.bandbox > b{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.navbar2{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+}
+.navbar2 > h1{
+    color: white;
+    text-align: center;
+}
+.navbar2 > p{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+.minicard{
+    width: 500px;
+    height: 95px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 670px;
+    border: none;
+}
+.mini1{
+    border: 1px solid grey;
+    height: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.mini2{
+    border: 1px solid grey;
+    height: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.mini3{
+    border: 1px solid grey;
+    height: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.image3{
+    width: 100px;
+    height: 372px;
+    border: 1px solid black;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 860px;
+}
+.image01{
+    width: 450px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.image02{
+    width: 450px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+}
+.image03{
+    width: 450px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.white{
+    width: 100%;
+    height:400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cont{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.fan{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+.left{
+    border: 1px solid white;
+    width: 200px;
+    height:60px;
+}
+.right{
+    border: 1px solid white;
+    width: 450px;
+}
+.whole{
+    width: 60vw;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.notsomain{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./map.jpg);
+}
+.last{
+    width: 100%;
+    height :200px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
